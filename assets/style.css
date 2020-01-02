@@ -1,0 +1,52 @@
+body {
+    background-color: #D3D3D3;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif !important;
+    color: #191919;
+}
+
+#magic-icon {
+    padding-top: 200px;
+}
+
+#magic-header {
+    padding-bottom: 200px;
+}
+
+#pull {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#pull-img {
+    margin-top: 50px;
+}
+
+#pull-text {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+    padding: 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+#pull-btn {
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+#learn-header {
+    color: #191919;
+}
+
+#contact-header {
+    color: #191919;
+}

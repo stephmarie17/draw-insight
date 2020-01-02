@@ -1,0 +1,19 @@
+{
+  "name": "draw-insight",
+  "version": "1.0.0",
+  "description": "A daily tarot card pulling application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephmarie17/draw-insight.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephmarie17/draw-insight/issues"
+  },
+  "homepage": "https://github.com/stephmarie17/draw-insight#readme"
+}
