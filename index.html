@@ -7,14 +7,16 @@
     <title>draw insight</title>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
     <div class="ui menu">
         <div class="header item">
-        <i class="adjust icon"></i>
+        <a href="index.html"><i class="adjust icon"></i>
           draw insight
         </div>
+        </a>
         <a href="#pull" class="item">
           pull
         </a>
@@ -27,9 +29,9 @@
     </div>
     <div class="ui center aligned container">
         <h2 class="ui centered align icon header">
-            <i class="magic icon" id="magic-icon"></i>
+            <i class="magic icon animated infinite pulse" id="magic-icon"></i>
             <div class="content">
-                draw insight
+                <span id="magic-header-top">draw insight</span>
                 <div class="sub header" id="magic-header">a tool to integrate a bit of magic into your day</div>
             </div>
         </h2>
@@ -47,11 +49,38 @@
         The Major Arcana function as trump cards, representing the Fool's Journey beginning at card 0.
          The Fool's Journey is an archetypal arc, with the story going that each card represents a person or a lesson that the Fool learns until they meet the World. These cards can represent a person, an event, or the querent.
     </p>
+    <p>
+        The tradtional tarot deck that most people picture is the Rider-Waite-Smith deck, however independently produced decks are now widely available. 
+        The cards utilized in this app were created by me based upon the traditional interpretations of the cards.
+    </p>
     </div>
     <div class="ui centered aligned container">
         <div class="ui divider"></div>
         <h2 class="ui header"><a name="contact" id="contact-header">contact</a></h2>
+        <p>Questions about the tarot or this app? Fill out the form below to contact the creator of draw insight.</p>
+        <div class="ui inverted segment">
+            <div class="ui inverted form">
+              <div class="two fields">
+                <div class="field">
+                  <label>First Name</label>
+                  <input placeholder="First Name" type="text">
+                </div>
+                <div class="field">
+                  <label>E-mail</label>
+                  <input placeholder="Last Name" type="email">
+                </div>
+              </div>
+              <div class="inline field">
+                <div class="field">
+                    <label>Your Message</label>
+                    <textarea></textarea>
+                  </div>
+              </div>
+              <div class="ui submit button">Submit</div>
+            </div>
+          </div>
     </div>
+    <footer>Created by Steph Aurelio | 2020</footer>
         
 <script src="assets/script.js"></script>
 </body>
